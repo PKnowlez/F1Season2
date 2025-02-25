@@ -44,7 +44,7 @@ def Calculations():
         'Red Bull': 'darkblue',
         'VCARB': 'blue',
         'AlphaTauri': 'LightSlateGray',
-        'Alfa Romeo': 'darkred',
+        'Alfa Romeo': 'Maroon',
         'Mercedes': 'black',
         'Haas': 'gray',
     }  
@@ -52,14 +52,18 @@ def Calculations():
     # Driver colors
     driver_colors = {
         'Nick': 'darkorange', 
-        'Travis': 'orange',
-        'Zane': 'teal',
-        'David': '#84c1c1',
-        'Erick': 'black',
-        'Marcus': 'darkgray',
-        'Boz': 'darkblue',
-        'Josh': '#8888c9',
-        'Gary': 'red'
+        'Gary': 'orange',
+        'Del': 'black',
+        'Boz': 'darkgray',
+        'Erick': 'red',
+        'David': '#ff6060',
+        'Joshua': 'hotpink',
+        'Eddie': 'lightpink',
+        'Zane': 'darkblue',
+        'Marcus': '#8888c9',
+        'Josh': 'IndianRed',
+        'Yeti': 'Maroon',
+        'Travis': 'LightSlateGray',
     } 
 
     for i in range(len(race_place)):
