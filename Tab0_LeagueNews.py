@@ -8,15 +8,15 @@ from streamlit_carousel import carousel
 from PIL import Image
 
 # Images
-australia_circuit = Image.open("./Images/Australia_Circuit.png")
-spa_circuit = Image.open("./Images/Spa_Circuit.png")
-spain_circuit = Image.open("./Images/Spain_Circuit.png")
-china_circuit = Image.open("./Images/China_Circuit.png")
-baku_circuit = Image.open("./Images/Baku_Circuit.png")
-canada_circuit = Image.open("./Images/Canada_Circuit.png")
-abu_dhabi_circuit = Image.open("./Images/Abu_Dhabi_Circuit.png")
-austria_circuit = Image.open("./Images/Austria_Circuit.png")
-cota_circuit = Image.open("./Images/COTA_Circuit.png")
+australia_circuit = Image.open("./Season2/Images//Australia_Circuit.png")
+spa_circuit = Image.open("./Season2/Images//Spa_Circuit.png")
+spain_circuit = Image.open("./Season2/Images//Spain_Circuit.png")
+china_circuit = Image.open("./Season2/Images//China_Circuit.png")
+baku_circuit = Image.open("./Season2/Images//Baku_Circuit.png")
+canada_circuit = Image.open("./Season2/Images//Canada_Circuit.png")
+abu_dhabi_circuit = Image.open("./Season2/Images//Abu_Dhabi_Circuit.png")
+austria_circuit = Image.open("./Season2/Images//Austria_Circuit.png")
+cota_circuit = Image.open("./Season2/Images//COTA_Circuit.png")
 
 def Tab0():
     if 'show_all_content' not in st.session_state:
